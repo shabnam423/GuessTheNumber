@@ -103,6 +103,6 @@ int main()
         }
         printf(ANSI_COLOR_RED "You found computer's guess!\n" ANSI_COLOR_RESET "Which is: %d.\n" ANSI_COLOR_GREEN "you guessed it in %d tries!\n" ANSI_COLOR_RESET, temp, tries);
     }
-
+printf(ANSI_COLOR_BLUE BOLD_ON  "Thanks for playing!\n" ANSI_COLOR_RESET);
     return 0;
 }
